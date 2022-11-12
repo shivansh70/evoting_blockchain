@@ -1,0 +1,35 @@
+{
+  "name": "evoting",
+  "version": "1.0.0",
+  "description": "A blockchain-based e-voting platform developed by Blockchain Competence Center @Budapest, Hungary",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itblockchain/evoting.git"
+  },
+  "keywords": [],
+  "author": "Blockchain Competence Center",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itblockchain/evoting/issues"
+  },
+  "homepage": "https://github.com/itblockchain/evoting#readme",
+  "dependencies": {
+    "bigi": "^1.4.2",
+    "bignumber.js": "^7.0.2",
+    "coinstring": "^2.0.0",
+    "ecurve": "^1.0.0",
+    "ethereumjs-util": "^5.1.5",
+    "express": "^4.16.2",
+    "node-forge": "^0.7.4",
+    "truffle": "^4.1.3",
+    "web3": "^1.0.0-beta.34",
+    "zeppelin-solidity": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  }
+}
